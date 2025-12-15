@@ -1,0 +1,466 @@
+{
+    "metadatos_registro": {
+      "fecha_procesamiento": "2025-12-08",
+      "nombre_archivo_origen": "image_f7dddc.jpg + image_f7dad3.jpg + afalon_50_sc_21-07-2021.pdf",
+      "extractor_responsable": "Agent_WeedScience_Expert"
+    },
+    "identificacion_producto": {
+      "nombre_comercial": "AFALON 50 SC",
+      "tipo_producto": "HERBICIDA",
+      "formulacion": "SUSPENSIÓN CONCENTRADA (SC)",
+      "ingredientes_activos": [
+        {
+          "nombre": "Linuron",
+          "concentracion": "50% p/v (500 g/L)",
+          "familia_quimica": "Ureas"
+        }
+      ],
+      "numero_registro_sag": "3041",
+      "clasificacion_hrac": {
+        "grupo_actual": "5 (HRAC/WSSA)",
+        "grupo_legado": "C2 (Legacy HRAC)",
+        "descripcion_accion": "Inhibición de la fotosíntesis en el PSII - Serine 264 Binders"
+      },
+      "titular_distribuidor": "Adama Chile S.A."
+    },
+    "parametros_tecnicos_globales": {
+      "protocolo_aplicacion": {
+        "metodo_detalle": "Aplicar sobre suelo bien preparado, mullido y húmedo. Es esencial que el suelo esté húmedo al momento de la aplicación. Después de la aplicación y mientras no aparezcan malezas, evitar mover el suelo.",
+        "mojamiento_minimo_terrestre_L_ha": 200,
+        "mojamiento_maximo_terrestre_L_ha": 250,
+        "instrucciones_dosis_suelo": "Dosis mínima para suelos livianos arenosos, máxima para suelos pesados arcillosos. NO APLICAR en suelos arenosos con menos de 1% de materia orgánica.",
+        "condiciones_climaticas": "No aplicar si se prevén condiciones de alta pluviometría. Evitar dosis excesivas o traslapes."
+      },
+      "protocolo_mezcla": {
+        "instrucciones_preparacion": "Hacer pre-mezcla de la dosis en un balde con agua y agitar. Verter al estanque con agua hasta la mitad, manteniendo agitador en marcha. Agregar el agua faltante.",
+        "requiere_adyuvante": false,
+        "detalle_adyuvante": "No se recomienda mezclar con fungicidas o insecticidas."
+      },
+      "compatibilidad_quimica": {
+        "es_compatible": "Compatible en mezcla de estanque con Atrazina y 2,4-D.",
+        "es_incompatible": "Incompatible con productos fuertemente alcalinos.",
+        "nota_fitotoxicidad": "No presenta fitotoxicidad si se siguen instrucciones. Puede existir sensibilidad varietal."
+      }
+    },
+    "instrucciones_uso_desagregadas": [
+      {
+        "id_fila": 1,
+        "cultivo_autorizado": "Ajo",
+        "tipo_aplicacion": "Post-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,2 - 1,5 L/ha",
+          "valor_min": 1.2,
+          "valor_max": 1.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Ajo de 10 cm de altura",
+          "estado_maleza": "Malezas de 2 a 4 hojas"
+        },
+        "observaciones_especificas": "Aplicar en lo posible después de una lluvia o un riego. Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 2,
+        "cultivo_autorizado": "Apio",
+        "tipo_aplicacion": "Post-transplante",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,5 - 2,5 L/ha",
+          "valor_min": 1.5,
+          "valor_max": 2.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "10 a 20 días después de plantar",
+          "estado_maleza": "Dependiendo de infección"
+        },
+        "observaciones_especificas": "Aplicar después de un riego. Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 3,
+        "cultivo_autorizado": "Arveja",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 2,0 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 4,
+        "cultivo_autorizado": "Cebolla",
+        "tipo_aplicacion": "Post-siembra (Pre/Post temprana)",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "0,8 - 1,0 L/ha",
+          "valor_min": 0.8,
+          "valor_max": 1.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "10 a 20 días después de la siembra",
+          "estado_maleza": "Dependiendo de condiciones"
+        },
+        "observaciones_especificas": "Aplicar después de un riego de manera muy uniforme. Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 5,
+        "cultivo_autorizado": "Cebada (Pre-emergencia)",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,5 - 2,0 L/ha",
+          "valor_min": 1.5,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Inmediatamente después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 6,
+        "cultivo_autorizado": "Cebada (Post-emergencia)",
+        "tipo_aplicacion": "Post-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 1,5 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 1.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Plantas con 3 a 4 hojas, antes de la macolla",
+          "estado_maleza": "Post-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 7,
+        "cultivo_autorizado": "Espárragos",
+        "tipo_aplicacion": "Pre-emergencia (cultivo)",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,5 - 2,0 L/ha",
+          "valor_min": 1.5,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "A partir del 3er año de plantación",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 8,
+        "cultivo_autorizado": "Maravilla",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "2,0 - 3,0 L/ha",
+          "valor_min": 2.0,
+          "valor_max": 3.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Mínimas en suelos livianos, máximas en pesados"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Pre-emergencia",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 9,
+        "cultivo_autorizado": "Gladiolos",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 1,5 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 1.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Inmediatamente antes de la emergencia",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 10,
+        "cultivo_autorizado": "Habas",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 2,0 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Un día después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 11,
+        "cultivo_autorizado": "Lentejas",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 1,5 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 1.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Inmediatamente después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 12,
+        "cultivo_autorizado": "Lupino",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "2,0 - 2,5 L/ha",
+          "valor_min": 2.0,
+          "valor_max": 2.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Inmediatamente después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 13,
+        "cultivo_autorizado": "Frutales (Manzano, Peral, Membrillo, Kiwi, Duraznero, Nectarino, Damasco, Ciruelo, Cerezo, Almendro, Nogal, Vides)",
+        "tipo_aplicacion": "Post-emergencia dirigida",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "5,0 - 6,0 L/ha",
+          "valor_min": 5.0,
+          "valor_max": 6.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "A partir del 3er año de plantación",
+          "estado_maleza": "Agosto - Septiembre"
+        },
+        "observaciones_especificas": "Con pulverización dirigida después de desmalezar mecánicamente. Efectuar una sola aplicación en la temporada. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 14,
+        "cultivo_autorizado": "Papas",
+        "tipo_aplicacion": "Pre-emergencia (Post-aporca)",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,5 - 3,0 L/ha",
+          "valor_min": 1.5,
+          "valor_max": 3.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Emergencia después de siembra, aporcar y aplicar 5 días antes que emerjan",
+          "estado_maleza": "Pre-emergencia (alrededor de 5 días antes de emergencia cultivo)"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 15,
+        "cultivo_autorizado": "Perejil, Cilantro",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 2,0 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Inmediatamente después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 16,
+        "cultivo_autorizado": "Porotos",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 2,0 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Inmediatamente después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 17,
+        "cultivo_autorizado": "Trigo primavera (no asociado) - Pre-emergencia",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,5 - 2,0 L/ha",
+          "valor_min": 1.5,
+          "valor_max": 2.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "2 a 4 días después de la siembra",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 18,
+        "cultivo_autorizado": "Trigo primavera (no asociado) - Post-emergencia",
+        "tipo_aplicacion": "Post-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,0 - 1,2 L/ha",
+          "valor_min": 1.0,
+          "valor_max": 1.2,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Plantas con 3 a 6 hojas",
+          "estado_maleza": "Post-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 19,
+        "cultivo_autorizado": "Zanahoria (Pre-emergencia)",
+        "tipo_aplicacion": "Pre-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "2,0 - 3,0 L/ha",
+          "valor_min": 2.0,
+          "valor_max": 3.0,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Después de la siembra y un riego",
+          "estado_maleza": "Pre-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      },
+      {
+        "id_fila": 20,
+        "cultivo_autorizado": "Zanahoria (Post-emergencia)",
+        "tipo_aplicacion": "Post-emergencia",
+        "malezas_objetivo": [
+          {"nombre_comun": "Alfilerillo"}, {"nombre_comun": "Bledo"}, {"nombre_comun": "Cebadilla"}, {"nombre_comun": "Duraznillo"}, {"nombre_comun": "Hualcacho"}, {"nombre_comun": "Linacilla"}, {"nombre_comun": "Llantén"}, {"nombre_comun": "Malvilla"}, {"nombre_comun": "Mastuerzo"}, {"nombre_comun": "Mostaza"}, {"nombre_comun": "Ñilhue"}, {"nombre_comun": "Ortiga"}, {"nombre_comun": "Pasto blanco"}, {"nombre_comun": "Pata de gallina"}, {"nombre_comun": "Pega-pega"}, {"nombre_comun": "Pichoga"}, {"nombre_comun": "Piojillo"}, {"nombre_comun": "Quilloi-quilloi"}, {"nombre_comun": "Quingüilla"}, {"nombre_comun": "Rábano"}, {"nombre_comun": "Romaza"}, {"nombre_comun": "Verdolaga"}, {"nombre_comun": "Vinagrillo"}, {"nombre_comun": "Yuyo"}, {"nombre_comun": "Paco yuyo"}, {"nombre_comun": "Ambrosia"}, {"nombre_comun": "Falaris"}, {"nombre_comun": "Tomatillo"}, {"nombre_comun": "Sanguinaria"}, {"nombre_comun": "Bolsita del pastor"}, {"nombre_comun": "Ballica anual"}, {"nombre_comun": "Manzanilla"}
+        ],
+        "dosis": {
+          "texto_original": "1,5 - 2,5 L/ha",
+          "valor_min": 1.5,
+          "valor_max": 2.5,
+          "unidad": "L/ha",
+          "condicion_suelo": "Según textura"
+        },
+        "momento_aplicacion": {
+          "estado_cultivo": "Con 3 hojas verdaderas",
+          "estado_maleza": "Post-emergencia"
+        },
+        "observaciones_especificas": "Efectuar una sola aplicación. Mojamiento 200-250 L/ha."
+      }
+    ],
+    "restricciones_seguridad": {
+      "carencias": [
+        {
+          "cultivo": "TODOS LOS CULTIVOS",
+          "dias": 0,
+          "nota": "Por su época de uso no corresponde."
+        }
+      ],
+      "periodos_reingreso": {
+        "personas": "4 horas",
+        "animales": "30 días"
+      },
+      "rotacion_cultivos_plantback": [
+        {
+          "cultivo_siguiente": "Cualquier cultivo",
+          "tiempo_espera": "Sin restricción"
+        }
+      ]
+    }
+  }
